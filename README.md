@@ -1,4 +1,4 @@
-# wcswidth [![[version]](https://badge.fury.io/rb/wcswidth.svg)](http://badge.fury.io/rb/wcswidth)  [![[travis]](https://travis-ci.org/janlelis/wcswidth-ruby.png)](https://travis-ci.org/janlelis/wcswidth-ruby)
+# wcswidth [![[version]](https://badge.fury.io/rb/wcswidth.svg)](https://badge.fury.io/rb/wcswidth) [![[ci]](https://github.com/janlelis/wcswidth/workflows/Test/badge.svg)](https://github.com/janlelis/wcswidth/actions?query=workflow%3ATest)
 
 Determine terminal display width (columns) of Ruby strings via [FFI bindings](https://github.com/ffi/ffi/wiki) to libc's [wcswidth()](http://man7.org/linux/man-pages/man3/wcswidth.3.html) function.
 
@@ -30,4 +30,4 @@ Without opting in for `wcswidth/kernel_method` it is `Wcswidth.of("string")`
 
 ## MIT License
 
-Copyright (C) 2016 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+Copyright (C) 2016 Jan Lelis <https://janlelis.com>. Released under the MIT license.
